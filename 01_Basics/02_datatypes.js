@@ -15,12 +15,12 @@ let isLoggedIn = false
 let state;
 
 // number => 2 to power 53
-// bigint
-// string => ""
+// bigint => 345n
+// string => "xyz"
 // boolean => true/false
 // null => standalone value
-// undefined => 
-// symbol => unique
+// undefined
+// symbol => Symbol("I am a nice  symbol")
 
 
 // object

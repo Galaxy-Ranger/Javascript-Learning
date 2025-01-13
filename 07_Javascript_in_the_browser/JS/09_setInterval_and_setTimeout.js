@@ -1,0 +1,162 @@
+const englishJokes = [
+    "Why don’t skeletons fight each other <br> They don’t have the guts.",
+    "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "Why don’t some couples go to the gym <br> Because some relationships don’t work out.",
+    "I told my computer I needed a break, and it froze.",
+    "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+    "Why was the math book sad <br> It had too many problems.",
+    "I couldn’t figure out how to put my seatbelt on. Then it 'clicked.'",
+    "What do you get when you cross a snowman and a vampire <br> Frostbite.",
+    "I used to play piano by ear, but now I use my hands.",
+    "I only know 25 letters of the alphabet. I don’t know y.",
+    "I asked the librarian if the library had any books on suicide. She said they were all checked out.",
+    "Why do cows wear bells <br> Because their horns don’t work.",
+    "What do you call fake spaghetti <br> An impasta.",
+    "I’m reading a book on anti-gravity. It’s impossible to put down.",
+    "Why can’t your nose be 12 inches long <br> Because then it would be a foot!",
+    "I couldn’t figure out why I was sleeping so badly. Then I realized I was tired.",
+    "I don’t trust stairs. They’re always up to something.",
+    "The man who survived both mustard gas and pepper spray is a seasoned veteran now.",
+    "What do you call cheese that isn’t yours <br> Nacho cheese!",
+    "Why did the scarecrow win an award <br> Because he was outstanding in his field!",
+    "I used to be a baker, but I couldn't make enough dough.",
+    "Why don’t oysters share their pearls <br> Because they’re shellfish.",
+    "What did the grape say when it got stepped on <br> Nothing, it just let out a little wine.",
+    "What’s orange and sounds like a parrot <br> A carrot.",
+    "Why was the belt arrested <br> For holding up a pair of pants.",
+    "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+    "I couldn't figure out how to put my seatbelt on. Then it clicked.",
+    "I’m reading a book about anti-gravity. It’s impossible to put down.",
+    "What do you call a bear with no teeth <br> A gummy bear.",
+    "I told my wife she should embrace her mistakes. She gave me a hug.",
+    "What do you call an alligator in a vest <br> An investigator.",
+    "I tried to catch some fog earlier. I mist.",
+    "I told my computer I needed a break, and it froze.",
+    "What do you call a pile of cats <br> A meow-tain.",
+    "How does a penguin build its house <br> Igloos it together!",
+    "Why do elephants never use computers <br> They're afraid of the mouse.",
+    "I used to play piano by ear, but now I use my hands.",
+    "Why don’t skeletons ever use cell phones <br> They don’t have the thumbs.",
+    "I’m on a seafood diet. I see food and I eat it.",
+    "I tried to take a photo of some fog, but I mist.",
+    "What do you call a dinosaur with an extensive vocabulary <br> A thesaurus.",
+    "I wasn’t originally going to get a brain transplant, but then I changed my mind.",
+    "Why don’t seagulls fly over the bay <br> Because then they’d be bagels!",
+    "I couldn’t figure out how to put my seatbelt on. Then it clicked.",
+    "Did you hear about the mathematician who’s afraid of negative numbers <br> He’ll stop at nothing to avoid them.",
+    "I used to play piano by ear, but now I use my hands.",
+    "Why did the computer go to the doctor <br> It had a virus.",
+    "I told my wife she should embrace her mistakes. She gave me a hug.",
+    "What’s the difference between a cat and a comma <br> A cat has claws at the end of paws; a comma is a pause at the end of a clause.",
+    "I made a pun about the wind, but it blows.",
+    "What’s a skeleton’s least favorite room <br> The living room.",
+    "Why don’t eggs tell jokes <br> Because they might crack up.",
+    "Why did the math book look so sad <br> Because it had too many problems.",
+    "How do you organize a space party <br> You planet.",
+    "What do you get when you cross a snowman and a vampire <br> Frostbite.",
+    "Why do bicycles fall over <br> Because they’re two-tired.",
+    "What do you call a pile of kittens <br> A meow-tain.",
+    "I couldn't figure out how to put my seatbelt on. Then it clicked.",
+    "What do you get if you cross a cat with a dark horse <br> A purrfectly unknown contender.",
+    "I couldn’t figure out how to put my seatbelt on. Then it clicked.",
+    "I used to be a baker, but I couldn't make enough dough.",
+    "What do you call fake spaghetti <br> An impasta.",
+    "I made a pun about the wind, but it blows.",
+    "I tried to catch some fog earlier. I mist.",
+    "What do you call a dinosaur with an extensive vocabulary <br> A thesaurus.",
+    "I just burned 1200 calories. I forgot the pizza in the oven.",
+    "Why don’t skeletons ever fight each other <br> They don’t have the guts.",
+    "Why can’t your nose be 12 inches long <br> Because then it would be a foot!",
+    "Why don’t some couples go to the gym <br> Because some relationships don’t work out.",
+    "What do you call cheese that isn’t yours <br> Nacho cheese!",
+    "I used to be a baker, but I couldn’t make enough dough.",
+    "What do you call an alligator in a vest <br> An investigator.",
+    "What do you call fake spaghetti <br> An impasta.",
+    "I tried to take a photo of some fog, but I mist.",
+    "How does a penguin build its house <br> Igloos it together!",
+    "What did the grape say when it got stepped on <br> Nothing, it just let out a little wine.",
+    "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "Why did the computer go to the doctor <br> It had a virus.",
+    "Why don’t skeletons ever use cell phones <br> They don’t have thumbs.",
+    "Why do cows wear bells <br> Because their horns don’t work.",
+    "What did one ocean say to the other ocean <br> Nothing, they just waved.",
+    "I couldn’t figure out how to put my seatbelt on. Then it clicked.",
+    "Why don’t eggs tell jokes <br> Because they might crack up.",
+    "I don’t trust stairs. They’re always up to something.",
+    "Why do elephants never use computers <br> They're afraid of the mouse.",
+    "I used to play piano by ear, but now I use my hands.",
+    "I’m reading a book about anti-gravity. It’s impossible to put down.",
+    "What do you call an alligator in a vest <br> An investigator.",
+    "What do you call fake spaghetti <br> An impasta.",
+    "How does a penguin build its house <br> Igloos it together!",
+    "Why don’t oysters share their pearls <br> Because they’re shellfish.",
+    "I’m on a seafood diet. I see food and I eat it.",
+    "What did one ocean say to the other ocean <br> Nothing, they just waved.",
+    "Why don’t skeletons ever fight each other <br> They don’t have the guts."
+  ];
+
+  const hindiJokes = [
+    "टीचर: अगर पृथ्वी से सूरज गायब हो जाए तो क्या होगा <br> पप्पू: छुट्टी हो जाएगी।",
+    "बच्चा: मम्मी, मुझे कल रात डरावना सपना आया। <br> मम्मी: क्या देखा बेटा <br> बच्चा: सपना देखा कि कल स्कूल नहीं जाना पड़ा।",
+    "गोलू: डॉक्टर, मैं भूलने की बीमारी से परेशान हूं। <br> डॉक्टर: कब से <br>गोलू: कब से क्या",
+    "टीचर: तुम स्कूल क्यों नहीं आए? <br> बच्चा: मम्मी के पास छुट्टी का नोट नहीं था। <br> टीचर: तो तुम क्या करते <br> बच्चा: मैं अपना स्कूल बैग ही घर छोड़ आता।",
+    "पत्नी: तुम मुझसे प्यार करते हो ना <br> पति: हां! <br> पत्नी: तो फिर कभी मुझसे लड़ाई मत करो। <br>पति: कोई सवाल नहीं। <br> पत्नी: मैं जानती थी, तुम जवाब नहीं दोगे!",
+    "बबलू: तुम हमेशा क्यों चुप रहते हो <br> पप्पू: कभी कभी चुप रहना ही सही होता है। <br> बबलू: लेकिन तुम तो हमेशा चुप रहते हो।",
+    "टीचर: पप्पू तुम घर पर क्या करते हो <br> पप्पू: मैं टीचर के सवालों के जवाब सोचता हूं। <br> टीचर: तो तुम्हारे पास क्या जवाब आया <br> पप्पू: सवाल का क्या जवाब दूं",
+    "एक आदमी डॉक्टर के पास गया और बोला, <br> आदमी: डॉक्टर साहब, मुझे भूलने की बीमारी हो गई है। <br> डॉक्टर: ये बीमारी कब से हुई <br> आदमी: कौन सी बीमारी",
+    "पत्नी: तुम मुझसे कितना प्यार करते हो <br> पति: जितना सूरज से सूरजमुखी फूल को प्यार होता है। <br> पत्नी: तो फिर क्यों सूरजमुखी हमेशा सूरज की तरफ ही रहता है!",
+    "पप्पू: टीचर, आप सबसे सुंदर हैं! <br> टीचर: अच्छा, पप्पू, यह कैसे <br> पप्पू: क्योंकि आप हमेशा हमें माफ करती रहती हो।",
+    "किसी ने पूछा: तुम इतने खुश क्यों हो <br> वह बोला: क्योंकि मुझसे कोई नहीं पूछता!",
+    "लड़की: तुम मुझे बहुत याद आते हो। <br> लड़का: तुम कह रही हो कि तुम मुझसे प्यार करती हो <br> लड़की: हां, तुम जैसे ना मिलते हैं। <br> लड़का: तो फिर मैं क्या तुमसे नहीं मिल सकता!",
+    "पति: तुम हमेशा मेरे पीछे क्यों रहती हो <br> पत्नी: क्योंकि तुम तो आगे जाने का नाम ही नहीं लेते।",
+    "पप्पू: टीचर, आज मेरे पास नोट्स नहीं हैं। <br> टीचर: क्यों <br> पप्पू: मेरी नोटबुक गुम हो गई है। <br> टीचर: तुम्हारे पास तो किताबें नहीं होती, फिर नोटबुक कहां से आई",
+    "टीचर: तुम अब तक स्कूल क्यों नहीं आए <br> बच्चा: मम्मी ने कहा था कि स्कूल जाना है, लेकिन मैं भूल गया।",
+    "पप्पू: यार, मुझे समझ में नहीं आता कि लड़कियों को क्या चाहिए। <br> बबलू: यही तो है, जो हमें समझ नहीं आता।",
+    "पत्नी: तुम हमेशा मेरे सामने क्यों चुप रहते हो <br> पति: क्योंकि मैं जानता हूं, तुम फिर से पूछोगी कि तुमसे प्यार करता हूं या नहीं",
+    "पप्पू: टीचर, क्या आप हमारे बारे में सोचती हैं <br> टीचर: हां, मैं तुम्हारे बारे में बहुत सोचती हूं। <br>पप्पू: तो फिर आप हमें पास क्यों नहीं करतीं",
+    "पापा: बेटा, यह क्या किया तुमने <br> बच्चा: कुछ नहीं, बस कुछ नहीं किया!",
+    "टीचर: पप्पू, तुम हमेशा लेट क्यों आते हो <br> पप्पू: मैम, मैं तो टाइम पर आता हूं, बस घड़ी थोड़ी लेट होती है!",
+    "पप्पू: पापा, मैं डरता हूं। <br>पापा: क्या डर है <br> पप्पू: मुझे डर है कि कहीं तुम मुझे स्कूल न भेज दो!",
+    "एक आदमी डॉक्टर के पास गया और बोला, <br> आदमी: डॉक्टर साहब, मुझे भूलने की बीमारी हो गई है। <br> डॉक्टर: कब से <br> आदमी: कब से क्या",
+    "पप्पू: क्या तुम मुझसे प्यार करती हो <br> लड़की: हां, बिल्कुल! <br> पप्पू: तो फिर मुझे क्यों गाली देती हो",
+    "पत्नी: तुम मुझे खुश नहीं रखते। <br> पति: लेकिन मैं तो हर दिन तुम्हारे लिए नई नई चीजें लाता हूं। <br> पत्नी: मैं तो सोच रही थी तुम मुझे हस्से हस्से मरवा दोगे!",
+    "टीचर: तुम स्कूल क्यों नहीं आए <br> पप्पू: क्योंकि मुझे स्कूल जाना पसंद नहीं है।",
+    "गोलू: तुम चुप क्यों हो <br> पप्पू: मम्मी ने कहा था कि ज़्यादा बोलने से सिर में दर्द होता है।",
+    "टीचर: पप्पू तुम हमेशा क्यों लेट आते हो <br> पप्पू: क्योंकि मैं जल्दी उठता हूं!",
+    "पत्नी: तुम मुझसे प्यार करते हो <br> पति: हां, लेकिन तुम्हारे सवाल से ज्यादा प्यार नहीं कर सकता।",
+    "पप्पू: मुझे मेरी नज़र लग गई है। <br> बबलू: क्यों <br> पप्पू: क्योंकि कोई मुझसे प्यार करता है!",
+    "टीचर: पप्पू, तुम्हारे पास किताबें क्यों नहीं हैं <br> पप्पू: मुझे किताबों की पढ़ाई नहीं करनी!",
+    "पापा: तुम पढ़ाई क्यों नहीं करते <br> बच्चा: क्योंकि ये भी मुझे किसी ने नहीं सिखाई!",
+    "पति: तुम हमेशा मुझे नज़रअंदाज क्यों करती हो <br> पत्नी: क्योंकि तुम हमेशा वही सवाल पूछते हो, जो पहले पूछ चुके हो।",
+    "पप्पू: क्या तुम मेरी मदद कर सकती हो <br> लड़की: हां, बताओ। <br> पप्पू: मुझे इन सवालों के जवाब कैसे देना है",
+    "गोलू: तुम हमेशा क्यों बोर रहते हो <br> पप्पू: क्योंकि बोरियत भी हमेशा मेरे साथ रहती है!",
+    "पप्पू: तुम मेरे साथ क्यों बैठी हो <br> लड़की: क्योंकि तुम्हारे पास बैठने का कोई और रास्ता नहीं था!",
+    "पति: तुम्हारी आँखों में क्या राज है <br> पत्नी: कुछ नहीं, बस तुम मेरे सामने हो।",
+    "पप्पू: तुम मुझसे प्यार करती हो <br> लड़की: हां, बहुत। <br> पप्पू: तो फिर शादी क्यों नहीं कर सकती"
+  ];
+
+
+function engJoke() {
+    let randomNum = Math.floor(Math.random() * englishJokes.length)
+    document.getElementsByClassName('container')[0].innerHTML = `<h3>${englishJokes[randomNum]}</h3>`
+}
+
+function hindiJoke() {
+    let randomNum = Math.floor(Math.random() * hindiJokes.length)
+    document.getElementsByClassName('container')[0].innerHTML = `<h3>${hindiJokes[randomNum]}</h3>`
+}
+// let id = setInterval(() => {
+    if(confirm("You Want to know a Joke.")) {
+        let userChoice = prompt("Press 'E' for English Joke or 'H' for Hindi Joke..").toUpperCase()
+        if(userChoice === 'E') {
+            setInterval(engJoke, 5000)
+        } else if (userChoice === 'H') {
+            setInterval(hindiJoke, 5000)
+        } else {
+            userChoice = prompt("Please enter either 'E' or 'H'..").toUpperCase()
+        }
+    } else {
+        document.body.remove(document.body.getElementsByClassName("container")[0])
+    }
+//     clearInterval(id)
+// }, 0, engJoke, hindiJoke)

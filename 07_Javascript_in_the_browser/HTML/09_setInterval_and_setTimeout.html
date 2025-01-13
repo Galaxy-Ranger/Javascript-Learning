@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me a Joke</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100vh;  /* Ensure the body takes the full height of the viewport */
+            display: flex;
+            justify-content: center;  /* Horizontally center the container */
+            align-items: center;  /* Vertically center the container */
+            background-color: #f0f0f0;  /* Optional: light background for better visibility */
+        }
+        .container {
+            height: 90vh;
+            width: 160vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+            border-radius: 50%;
+            transition: box-shadow, 1s;
+            text-align: center;  /* Ensure text is centered inside the container */
+            
+        }
+        .container:hover {
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <script src="../JS/09_setInterval_and_setTimeout.js"></script>
+</body>
+</html>
